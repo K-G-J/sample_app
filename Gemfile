@@ -48,7 +48,8 @@ gem 'bootsnap', require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
-  gem 'byebug', '11.1.3', platforms: %i[mri mingw x64_mingw]
+  gem 'byebug',  '11.1.3', platforms: %i[mri mingw x64_mingw]
+  gem 'sqlite3', '1.4.2'
 end
 
 group :development do
